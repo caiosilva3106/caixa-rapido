@@ -28,3 +28,16 @@ while True:
         for produto in produtos:
             ExibirRecibo(produto[0], produto[3])
         break
+    v=100 # define v como 100
+    x=x+1 # soma 1 ao x
+    limite_tentativas_login=10
+    valobase=0.0
+    def CalcularValorfinal(valoro_base,taxa_desconto):
+        '''Aplica o desconto a valor base
+            Args:
+                valor_base(float): valor original do produto
+                taxa_desconto(float):taxa de desconto a ser aplicada
+
+            Returns:
+                float:valor base com desconto
+        '''
