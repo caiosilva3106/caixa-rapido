@@ -1,9 +1,4 @@
-# Variáveis Globais
-nome = ''
-preco = 0.0
-desconto = 0.0
-preco_final = 0.0
-produtos = []
+
 
 def CalcularValorFinal(valor_base = 0.0, taxa_desconto = 0.0):
     valor_com_desconto = valor_base - (valor_base * (taxa_desconto / 100))
